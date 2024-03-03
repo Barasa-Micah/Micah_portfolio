@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 // import micahImage from './micah.jpg'; 
+import 'About.css'
 
 const About = () => {
   return (
