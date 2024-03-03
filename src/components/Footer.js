@@ -11,15 +11,14 @@ const Footer = () => {
           <p>Contact: micadevelops@gmail.com</p>
           <div className={styles.socialMedia}>
             <a href="https://twitter.com/yourtwitter" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-twitter"></i>
+              <i className="fab fa-twitter"></i> Twitter
             </a>
             <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-linkedin"></i>
+              <i className="fab fa-linkedin"></i> LinkedIn
             </a>
             <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-github"></i>
+              <i className="fab fa-github"></i> GitHub
             </a>
-           
           </div>
         </div>
       </div>
