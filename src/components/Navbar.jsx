@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import { FaMobile } from "react-icons/fa";
 import { scrollSpy } from 'react-scroll';
+import 'Navbar.css';
 
 const Navbar = () => {
     const [isDarkMode, setIsDarkMode] = useState(false)
