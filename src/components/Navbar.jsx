@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
-import { FaMobileScreenButton } from "react-icons/fa6";
+import { FaMobile } from "react-icons/fa";
 import { scrollSpy } from 'react-scroll';
 
 const Navbar = () => {
