@@ -1,0 +1,88 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #283c86, #45a247);
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Logo */
+  .logo {
+    cursor: pointer;
+  }
+  
+  /* Nav Links */
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #64b5f6;
+    transform: scale(1.1);
+  }
+  
+  /* Active Link */
+  .active {
+    color: #64b5f6;
+  }
+  
+  /* Mode Toggle */
+  .mode-toggle {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .mode-toggle:hover {
+    color: #64b5f6;
+  }
+  
+  /* Mobile Menu Icon */
+  .mobile-menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  /* Mobile Menu */
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .mobile-menu.open {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Media Query for Mobile Menu Icon */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .mobile-menu-icon {
+      display: block;
+    }
+  }
+  
